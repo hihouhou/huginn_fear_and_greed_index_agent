@@ -22,20 +22,21 @@ module Agents
 
     event_description <<-MD
       Events look like this:
-      {
-      	"name": "Fear and Greed Index",
-      	"data": [
-      		{
-      			"value": "55",
-      			"value_classification": "Greed",
-      			"timestamp": "1602979200",
-      			"time_until_update": "50363"
-      		}
-      	],
-      	"metadata": {
-      		"error": null
-      	}
-      }
+
+          {
+          	"name": "Fear and Greed Index",
+          	"data": [
+          		{
+          			"value": "55",
+          			"value_classification": "Greed",
+          			"timestamp": "1602979200",
+          			"time_until_update": "50363"
+          		}
+          	],
+          	"metadata": {
+          		"error": null
+          	}
+          }
     MD
 
     def default_options
